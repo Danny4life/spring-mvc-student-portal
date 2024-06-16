@@ -21,6 +21,7 @@ public class StudentController {
         this.studentService = studentService;
     }
 
+
     // handler method to handle student list and return model and view
     @GetMapping("/students")
     public String listStudents(Model model){
